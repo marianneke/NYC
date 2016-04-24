@@ -1,0 +1,6 @@
+{
+  "name": "NYC rodent inspection",
+  "tagline": "",
+  "body": "# NYC rodent inspection data\r\nGoogle maps visualization of NYC open dataset containing dates, locations and details on rodent inspections. The data is regularly updated and can be found at:\r\nhttps://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj\r\n\r\n## To do:\r\n1. Create custom markers depending on the type and outcome of inspection (inspection passed, signs of infestation, bait applied, compliance visit)\r\n2. Create a webpage displaying the map\r\n3. Add data on other infestations (cockroaches, bedbugs) to the map\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
