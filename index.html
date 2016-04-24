@@ -34,6 +34,18 @@
 <p>Google maps visualization of NYC open dataset containing dates, locations and details on rodent inspections. The data is regularly updated and can be found at:
 <a href="https://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj">https://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj</a></p>
 
+<script>
+  function loader() {
+    var script = document.createElement("script");
+    script.src = "scripts/rodent_inspection.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }
+</script>
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIXj0Z3AkZp9-c3SWpXGodRtsuEOpHzKc&libraries=visualization&callback=loader" async>
+</script>
+
 <h2>
 <a id="to-do" class="anchor" href="#to-do" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To do:</h2>
 
