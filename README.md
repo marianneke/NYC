@@ -4,3 +4,5 @@ https://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj
 
 ## To do:
 1. Create custom markers depending on the type and outcome of inspection (inspection passed, signs of infestation, bait applied, compliance visit)
+2. Create a webpage displaying the map
+3. Add data on other infestations (cockroaches, bedbugs) to the map
