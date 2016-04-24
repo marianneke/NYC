@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>NYC Rodent Inspection Map</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header class="gradient">
+      <h1>NYC Rodent Inspection Map</h1>
+    </header>
+    <div id="gmap"></div>
+    <footer class="gradient">
+    	<div id="label">
+        <span>Filters:</span>
+      </div>
+      <div class="dropdown-wrapper" id="borough">
+        <span class="dropdown-name">Borough</span>
+        <span class="dropdown-selection"></span>
+        <span class="dropdown-arrow">&#9650;</span>
+          <ul class="dropdown-content">
+            <li><a>Bronx</a></li>
+            <li><a>Brooklyn</a></li>
+            <li><a>Manhattan</a></li>
+            <li><a>Queens</a></li>
+            <li><a>Staten Island</a></li>
+          </ul>
+      </div>
+      <div id="apply">
+      <button type="button" id="apply-button" disabled>Apply</button>
+      </div>
+    </footer>
+    <script>
+      function loader() {
+      	var script = document.createElement("script");
+        script.src = "rodent_inspection.js";
+        script.async = true;
+        document.body.appendChild(script);
+      }
+    </script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOVhZgFnpMqN-lU8jnukm0CO9TC9L6FP8&libraries=visualization&callback=loader" async>
+    </script>
+  </body>
+</html>
