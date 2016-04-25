@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>Simple markers</title>
+    <title>Simple markers test</title>
     <style>
       html, body {
         height: 100%;
@@ -20,17 +20,17 @@
     <script>
 
       function initMap() {
-        var myLatLng = {lat: -25.363, lng: 131.044};
+        var myLatLng = {lat: 40.706211, lng: -73.904304};
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
+          zoom: 8,
           center: myLatLng
         });
 
         var marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
-          title: 'Hello World!'
+          title: 'Spam and Eggs!'
         });
       }
     </script>
