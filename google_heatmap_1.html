@@ -56,7 +56,7 @@
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 13,
-          center: {lat: 37.775, lng: -122.434},
+          center: {lat:  40.70621148, lng: -73.90430466},
           mapTypeId: google.maps.MapTypeId.SATELLITE
         });
 
@@ -105,16 +105,16 @@
           + 'RESULT=Active%20Rat%20Signs'
           
         return [
-          $.getJSON(url, function(data, textstatus) {
-            $.each(data, function(i, entry) {
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(entry.location_1.latitude, 
-                                                   entry.location_1.longitude),
-                    map: map,
-                    title: location.name
-                });
-            });
-      });
+//          $.getJSON(url, function(data, textstatus) {
+//            $.each(data, function(i, entry) {
+//                var marker = new google.maps.Marker({
+//                    position: new google.maps.LatLng(entry.location_1.latitude, 
+//                                                   entry.location_1.longitude),
+//                    map: map,
+//                    title: location.name
+//                });
+//            });
+//      });
         ];
       }
     </script>
