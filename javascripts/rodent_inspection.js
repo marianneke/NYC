@@ -7,7 +7,7 @@ $(window).load(function() {
     // Intialize our map
     var center = new google.maps.LatLng(40.70621148,-73.90430466);
     var mapOptions = {
-      zoom: 4,
+      zoom: 12,
       center: center
     }
     var map = new google.maps.Map(document.getElementById("map"), mapOptions);
