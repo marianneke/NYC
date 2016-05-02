@@ -1,7 +1,7 @@
 $(window).load(function() {
     // Construct the query string
     url = 'https://data.ct.gov/resource/a2h9-9z38.json'
-//          + 'organization_type=Public%20School%20Districts'
+          + 'RESULT=Active%20Rat%20Signs'
 //          + '&$$app_token=CGxaHQoQlgQSev4zyUh5aR5J3';
     
     // Intialize our map
