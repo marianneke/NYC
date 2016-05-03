@@ -146,8 +146,8 @@ Array.prototype.forEach.call(dropWrapper, function(element) {
 		(function(optionName) {
             options[i].addEventListener("click", function() {
                 label.textContent = ": " + optionName;
-                id === "year" ? (year = optionName) : id === "month" ?
-                (month = optionName) : (crimeType = optionName);
+                id === "year" ? (year = optionName) : id === "borough" ?
+                (borough = optionName);
                 validateButton();
             });
         })(optionName);
